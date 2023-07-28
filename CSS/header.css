@@ -49,12 +49,12 @@
   background-color: rgb(255, 255, 255);
   bottom: 0;
   left: 0;
-  transform-origin: right;
+  transform-origin: center;
   transform: scaleX(0);
   transition: transform .3s ease-in-out;
 }
 
 .navlist a:hover::before {
-transform-origin: left;
+transform-origin: center;
 transform: scaleX(1);
 }
